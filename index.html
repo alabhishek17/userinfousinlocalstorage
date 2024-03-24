@@ -1,50 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+         align-items: center;
+         background-color: cadetblue;
+        width: 50%;
+        margin-left: 300px;
+        border: 2px solid;
+        padding: 10px;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
     <h2>User Information</h2>
-    <div class="main">
-    <div id="fname">
-        <span>First Name:-</span>
-    <span id="firstname"></span>
+    <div class="main" >
+        <div id="fname">
+            <span>First Name:-</span>
+            <span id="firstname"></span>
+        </div>
+        <br>
+        <div id="lname">
+            <span>Last Name:-</span>
+            <span id="lastname"></span>
+        </div>
+        <br>
+        <div id="country1">
+            <span>Country:-</span>
+            <span id="country"></span>
+        </div>
+        <br>
+        <div id="state1">
+            <span>State:-</span>
+            <span id="state"></span>
+        </div>
+        <br>
+        <div id="city1">
+            <span>City Name:-</span>
+            <span id="city"></span>
+        </div>
+        <br>
+        <div id="village1">
+            <span>Village Name:-</span>
+            <span id="village"></span>
+        </div>
+        <br>
+        <div id="phone1">
+            <span>Phone Number:-</span>
+            <span id="Phonenum"></span>
+        </div>
     </div>
-    <br>
-    <div id="lname">
-        <span>Last Name:-</span>
-    <span id="lastname"></span>
-    </div>
-    <br>
-    <div id="country1">
-        <span>Country:-</span>
-    <span id="country"></span>
-    </div>
-    <br>
-    <div id="state1">
-        <span>State:-</span>
-    <span id="state"></span>
-    </div>
-    <br>
-    <div id="city1">
-        <span>City Name:-</span>
-    <span id="city"></span>
-    </div>
-    <br>
-    <div id="village1">
-        <span>Village Name:-</span>
-    <span id="village"></span>
-    </div>
-    <br>
-    <div id="phone1">
-        <span>Phone Number:-</span>
-    <span id="Phonenum"></span>
-    </div>
-</div>    
 
 
     <script src="./script.js"></script>
 </body>
+
 </html>
